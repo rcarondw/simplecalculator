@@ -13,19 +13,19 @@ form.addEventListener('submit', function (e) {
     switch (operator.value) {
         case "+":
             console.log(first + second);
-            result.innerHTML = `the result is ${first + second}`
+            result.innerHTML = `the result is : <br>${first + second}</br>`
             break;
         case "-":
             console.log(first - second);
-            result.innerHTML = `the result is ${first - second}`
+            result.innerHTML = `the result is : <br>${first - second}</br>`
             break;
         case "/":
             console.log(first / second);
-            result.innerHTML = `the result is ${first / second}`
+            result.innerHTML = `the result is : <br>${first / second}</br>`
             break;
         case "*":
             console.log(first * second);
-            result.innerHTML = `the result is ${first * second}`
+            result.innerHTML = `the result is : <br>${first * second}</br>`
             break;
     }
 })
@@ -41,7 +41,7 @@ refresh.addEventListener('click', function () {
     for (let i = 0; i < formInput.length; i++) {
         console.log(formInput[i])
         formInput[i].value = "";
-        result.innerHTML = "The result is:"
+        result.innerHTML = "The result is :"
 
     }
 })

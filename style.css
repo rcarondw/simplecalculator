@@ -1,5 +1,6 @@
 body {
     text-align: center;
+    background-color: lightskyblue;
 }
 
 form {
@@ -9,10 +10,12 @@ form {
     align-items: center;
 }
 
-form input, select, label {
+form input, select {
     width: 30%;
     padding: 5px;
     margin: 10px;
+    border: 1px solid lightgray;
+    border-radius: 15px;
 }
 
 .button {
@@ -25,9 +28,19 @@ h1 {
     text-align: center;
 }
 
+.container {
+    display: flex;
+    flex-direction: column;
+    border: solid 3px rgb(248, 230, 230);
+    border-radius: 150px;
+    width: 50%;
+    height: 550px;
+    margin-left: 25%;
+    margin-right: 50%;
+    padding-top: 50px;
+    background-color: rgb(247, 232, 232);
+}
 
-#result {
-    border: 1px solid lightgray;
-    border-radius: 40px;
-    padding: 15px;
+h2 {
+    font-size: 17px;
 }

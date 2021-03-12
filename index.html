@@ -1,37 +1,43 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
         <h1>Simple Calculator</h1>
         <form id="form">
-         <label for="firstValue">Enter Your number</label>
+            <label for="firstValue">Enter Your number</label>
 
-         <input type="text" id="firstValue" class="formInput">
-         
-         <label for="operator">Pick an operator</label>
-         <select name="operator" id="operator">
-            <option value="+">+</option>
-            <option value="-">-</option>
-            <option value="*">x</option>
-            <option value="/">/</option>
-         </select>
-         <label for="secondValue">Enter Your number</label>
-         
-         <input type="text" id="secondValue" class="formInput">
-         
-         <button type="submit" id="button" class="button">OK</button>
-         <button type="button" class="button" id="refresh">Refresh</button>
+            <input type="text" id="firstValue" class="formInput">
+
+            <label for="operator">Pick an operator</label>
+            <select name="operator" id="operator">
+                <option value="+">+</option>
+                <option value="-">-</option>
+                <option value="*">x</option>
+                <option value="/">/</option>
+            </select>
+            <label for="secondValue">Enter Your number</label>
+
+            <input type="text" id="secondValue" class="formInput">
+
+            <button type="submit" id="button" class="button">OK</button>
+            <button type="button" class="button" id="refresh">Refresh</button>
+            <h2 id="result" class="button">The result is :</h2>
+
         </form>
-        
-        <div id="result">The result is :</div>
 
-        <script src="script.js"></script>
-    </body>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
 </html>
